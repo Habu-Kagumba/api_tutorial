@@ -1,4 +1,4 @@
-class BenchmarksController < ApplicationController
+class BenchmarksController < ApiController
 	def simple
 		# example from http://json.org/example
 		json = {
