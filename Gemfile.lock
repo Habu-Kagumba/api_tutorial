@@ -55,6 +55,8 @@ GEM
     minitest (5.9.0)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
+    oj (2.15.1)
+    oj_mimic_json (1.0.1)
     puma (3.4.0)
     rack (1.6.4)
     rack-test (0.6.3)
@@ -101,6 +103,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  oj
+  oj_mimic_json
   puma
   rails (= 4.2.6)
   sqlite3
